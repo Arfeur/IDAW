@@ -1,0 +1,72 @@
+h1{
+    color:goldenrod;
+    text-align: center;
+}
+a{
+
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:orange;
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    margin: 0 5px;
+}
+
+
+hr{
+    border-color: orange;
+    width: 80%;
+}
+
+.titreStage{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.P1{
+    font-style: italic;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.accueil{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.left{
+    margin-left: 50px;
+}
+.main{
+    display:flex;
+}
+.right{
+    margin-left: 50px;
+
+}
+
+.center{
+
+    width: 100%;
+    font-weight: bold;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 15%;
+
+}
+
+.left.center{
+    justify-content: center;
+    width: 35%;
+}
