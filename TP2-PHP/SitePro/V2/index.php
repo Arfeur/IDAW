@@ -17,7 +17,7 @@
             <ul>
                 <li>Téléphone: +33 6 45 33 68 22</li>
                 <li>Mail: arthur.chevassut@etu.imt-nord-europe.fr</li>
-                <li>LinkedIn: </li>
+                <li>LinkedIn: Arthur Chevassut </li>
             </ul>
         </div>
     <?php 
