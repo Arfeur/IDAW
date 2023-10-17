@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "3c9b6689-6805-4d94-aa5a-b0a9a3a59d89",
+		"name": "PostMan API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30019827"
+	},
+	"item": [
+		{
+			"name": "http://localhost/IDAW/TP4/APIRest/product/read_one.php?id=22",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/IDAW/TP4/APIRest/product/read_one.php?id=22",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"IDAW",
+						"TP4",
+						"APIRest",
+						"product",
+						"read_one.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "22"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/IDAW/TP4/APIRest/product/read.php",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/IDAW/TP4/APIRest/product/read.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"IDAW",
+						"TP4",
+						"APIRest",
+						"product",
+						"read.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/IDAW/TP4/APIRest/product/create.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"testDelete\",\r\n    \"email\" : \"delete@gmail.com\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost/IDAW/TP4/APIRest/product/create.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"IDAW",
+						"TP4",
+						"APIRest",
+						"product",
+						"create.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/IDAW/TP4/APIRest/product/update.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : \"22\",\r\n    \"name\" : \"TestEE\",\r\n    \"email\" : \"delete@gmail.com\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost/IDAW/TP4/APIRest/product/update.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"IDAW",
+						"TP4",
+						"APIRest",
+						"product",
+						"update.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/IDAW/TP4/APIRest/product/delete.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : \"23\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost/IDAW/TP4/APIRest/product/delete.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"IDAW",
+						"TP4",
+						"APIRest",
+						"product",
+						"delete.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
